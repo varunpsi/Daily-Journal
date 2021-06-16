@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
-mongoose.connect("mongodb+srv://varunpsi:Test123@cluster0.tkij0.mongodb.net/blogDB", {
+mongoose.connect("mongodb+srv://your mongoDB URI/blogDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
